@@ -11,6 +11,8 @@ gc_count++;
 }
 double gc_percentage = (static_cast<double> (gc_count)/seq.length())*100;
 cout << "GC Content: "<< gc_percentage << "%" << endl; 
+  //add length reporting before the reeturnn statement 
+  cout<<"total Sequence Length: "<<seq.length()<<"bp"<<endl;
 return 0;
 }
 
